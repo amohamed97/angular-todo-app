@@ -1,0 +1,22 @@
+.todo-item{
+    box-shadow: 3px 7px 30px -10px rgba(50, 50, 50,0.9);
+    margin-top: 1.5rem;
+    border: 1px solid #999;
+    display: flex;
+    padding: 0.7rem;
+    background-color: #DDD;
+    border-radius: 10px;
+    align-items: center;
+    .todo-checkbox{
+        -ms-transform: scale(1.2); /* IE */
+        -moz-transform: scale(1.2); /* FF */
+        -webkit-transform: scale(1.2); /* Safari and Chrome */
+        -o-transform: scale(1.2); /* Opera */
+        transform: scale(1.2);
+        margin-right: 10px;
+    }
+}
+.todo-item.completed{
+    text-decoration: line-through;
+}
+

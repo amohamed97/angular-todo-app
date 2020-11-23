@@ -1,0 +1,26 @@
+.container{
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 2rem;;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    float: left;
+}
+
+.nav-link{
+    padding: 16px;
+    text-decoration: none;
+}
+
+app-todos-container{
+    width: 100%;
+}

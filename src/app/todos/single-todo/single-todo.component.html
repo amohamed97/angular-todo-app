@@ -1,0 +1,4 @@
+<label class="todo-item" [ngClass]="{'completed': todo.completed == true}">
+    <input [checked]="todo.completed" (change)="toggleCompleted($event)" class="todo-checkbox" type="checkbox">
+    {{ todo.text }}
+</label>
